@@ -4,8 +4,8 @@ import doctorMidle from '../../assets/images/b-m.jpg'
 import doctorRight from '../../assets/images/b-r.jpg'
 const Banner = () => {
     return (
-        <div className="mx-auto backgroundImage">
-            <div className='flex items-center justify-center gap-8 px-16 pb-48 pt-28'>
+        <div className="min-h-screen mx-auto backgroundImage">
+            <div className='flex items-center justify-center gap-8 px-16 pt-36'>
                 <div className='w-1/2 text-gray-200'>
                     <h1 className='mb-6 font-bold text-white text-7xl'>JS Doctor</h1>
                     <h3 className='mb-4 text-3xl font-semibold'>Your Best Medical Help Center</h3>
@@ -20,6 +20,11 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
+            <footer className="absolute bottom-0 max-w-screen-xl p-4 text-white footer footer-center">
+                <aside>
+                    <p className='text-lg'>Copyright © 2023 - Momenur Islam <span className='text-rose-500'>||</span> momenurislam6@gmail.com</p>
+                </aside>
+            </footer>
         </div>
     );
 };
